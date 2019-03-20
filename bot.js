@@ -104,4 +104,4 @@ if(member.roles.find(r=>r.name == roleNew.name)) return;
 
 
 
-client.login("NTU3MjQ1MTA2NjEzMzg3MjY0.D3Femg.ykP-FqlWuyCYkaoDjN5gRZKLtmE");
+client.login(process.env.BOT_TOKEN);
